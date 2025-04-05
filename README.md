@@ -1,17 +1,5 @@
 # microbit-project
 
-  
-Table of Content
-
-1.0	Introduction -------------------------------------------------------------------------------- 2
-2.0 System Design ------------------------------------------------------------------------------ 2
-3.0 Implementation ---------------------------------------------------------------------------- 3
-	3.1 Prerequisites ----------------------------------------------------------------------- 3
-	3.2 Radio Configuration ------------------------------------------------------------- 3
-	3.3 Sender Workflow ----------------------------------------------------------------- 3
-	3.4 Receiver Workflow --------------------------------------------------------------- 3
-4.0 Conclusion ---------------------------------------------------------------------------------- 4
-5.0 References ---------------------------------------------------------------------------------- 4 
 1.0 Introduction
 Micro:Bit devices are commonly used in IoT and educational settings, making secure communication essential to prevent unauthorized access and ensure data integrity. This project implements a lightweight encryption and authentication system to protect command communication between two Micro:Bit devices. It utilizes AES encryption and cryptographic hashing (including MD5 and a unique identifier) to provide confidentiality, integrity, and authentication. The protocol also incorporates random salts to enhance security while remaining suitable for constrained environments, enabling secure command transmission and execution between a transmitter and receiver.
  
